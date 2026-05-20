@@ -151,3 +151,70 @@ import sys; sys.path.insert(0, '/content/src')
 | **A — Pedesaan** | 700 MHz | BPSK / QPSK | 1 MHz | Coverage luas, LM > 35 dB di 5 km, noise floor minimal |
 | **B — Perkotaan** | 2.4 GHz | 16-QAM / 64-QAM | 10–100 MHz | Jarak dekat → SNR tinggi, throughput maksimal |
 | **C — Drone Pegunungan** | 700 MHz | BPSK | 1 MHz | Fading berat → butuh modulasi paling robust, LM maksimal |
+
+---
+
+## Rubrik Penilaian
+
+| Kriteria Penilaian | Bobot |
+|--------------------|:-----:|
+| Kebenaran Perhitungan dan Simulasi | 30% |
+| Analisis Engineering dan Trade-off | 30% |
+| Kualitas Visualisasi Grafik | 15% |
+| Kualitas Source Code | 15% |
+| Kualitas Laporan | 10% |
+
+---
+
+### 1. Kebenaran Perhitungan dan Simulasi (30%)
+
+| Nilai | Kriteria |
+|-------|----------|
+| **Sangat Baik** (85–100) | Semua formula diterapkan dengan benar; simulasi berjalan tanpa error; hasil konsisten dengan teori komunikasi digital; tidak terdapat kesalahan unit atau parameter |
+| **Baik** (70–84) | Terdapat kesalahan minor; sebagian besar hasil benar; simulasi tetap dapat digunakan untuk analisis |
+| **Cukup** (55–69) | Beberapa parameter tidak konsisten; ada kesalahan perhitungan yang memengaruhi sebagian hasil |
+| **Kurang** (<55) | Formula salah secara fundamental; simulasi gagal dijalankan; hasil tidak valid |
+
+---
+
+### 2. Analisis Engineering dan Trade-off (30%)
+
+| Nilai | Kriteria |
+|-------|----------|
+| **Sangat Baik** | Analisis mendalam dan berbasis data simulasi; mampu menjelaskan trade-off secara teknis; rekomendasi desain rasional dan konsisten |
+| **Baik** | Trade-off dijelaskan dengan cukup baik; analisis masih kurang mendalam pada beberapa bagian |
+| **Cukup** | Analisis masih deskriptif; justifikasi teknis kurang kuat |
+| **Kurang** | Tidak ada analisis engineering yang jelas; kesimpulan tidak didukung data |
+
+---
+
+### 3. Kualitas Visualisasi Grafik (15%)
+
+| Nilai | Kriteria |
+|-------|----------|
+| **Sangat Baik** | Grafik jelas dan mudah dibaca; label, satuan, dan legenda lengkap; visualisasi membantu interpretasi data |
+| **Baik** | Grafik cukup informatif; ada sedikit kekurangan pada labeling atau layout |
+| **Cukup** | Grafik sulit dianalisis; label atau skala kurang jelas |
+| **Kurang** | Tidak ada visualisasi bermakna; grafik tidak relevan |
+
+---
+
+### 4. Kualitas Source Code (15%)
+
+| Nilai | Kriteria |
+|-------|----------|
+| **Sangat Baik** | Struktur modular; menggunakan function/class dengan baik; dokumentasi dan komentar jelas; mudah dijalankan ulang |
+| **Baik** | Struktur cukup rapi; dokumentasi masih terbatas |
+| **Cukup** | Banyak hardcoded value; struktur kurang modular |
+| **Kurang** | Sulit dibaca; tidak dapat dijalankan |
+
+---
+
+### 5. Kualitas Laporan (10%)
+
+| Nilai | Kriteria |
+|-------|----------|
+| **Sangat Baik** | Struktur ilmiah lengkap; bahasa akademik jelas; referensi relevan dan konsisten; analisis tertulis runtut |
+| **Baik** | Struktur cukup lengkap; ada beberapa bagian kurang mendalam |
+| **Cukup** | Penulisan kurang rapi; analisis kurang jelas |
+| **Kurang** | Tidak mengikuti format akademik; banyak bagian penting tidak ada |
